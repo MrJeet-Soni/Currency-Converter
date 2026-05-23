@@ -1,0 +1,156 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+
+.bg{
+    height:100vh;
+    width:100%;
+    display:fixed;
+}
+.logo{
+    height: 60px;
+    width:60px;
+    margin-top:9px;
+    padding:1px;
+    margin-left:5px;
+    
+   
+}
+.nav{
+    height:80px;
+    width:100%;
+    background-color:none;
+    display:flex;
+    border:2px solid rgb(34, 92, 185);
+    
+    border-radius:10px;
+    /* box-shadow:2px 2px 5px rgba(197, 200, 226, 0.5); */
+    box-shadow:5px 2px 5px rgb(49, 102, 237);
+    position:fixed;
+}
+body{
+    background-image:url('Background img.png');
+    background-size:cover;
+    background-repeat:repeat;
+}
+.text{
+    color:white;
+    font-family:arial;
+    font-size:25px;
+    font-weight:700;
+    margin-top:12px;
+    margin-left:8px;
+    padding:1px;
+}
+.Text{
+    color:blue;
+    font-family:arial;
+    font-size:25px;
+    font-weight:700;
+    margin-top:12px;
+    padding:1px;
+   
+}
+.subhead{
+    color:white;
+    font-family:arial;
+    font-size:15px;
+    font-weight:500;
+   margin-left:-215px;
+   margin-top:45px;
+    padding:1px;
+
+}
+
+.container{
+    height:650px;
+    width:500px;
+    margin-left:650px;
+    margin-top:115px;
+    border-radius:25px;
+    border:3px solid rgb(34, 92, 185);
+    box-shadow:5px 5px 5px rgba(184, 200, 240, 0.5);
+    /* display:flex;
+    justify-content:center; */
+    position:fixed;
+}
+
+.exchange{
+    height:100px;
+    width:auto;
+    margin-top:15px;
+    padding:2px;
+    margin-left:170px;
+}
+
+
+
+.from{
+    color:white;
+    font-family:arial;
+    font-size:25px;
+    font-weight:700;
+    padding:1px;
+    margin-left:30px;
+    margin-top:5px;
+    text-shadow:2px 2px 10px aqua;
+
+
+
+}
+
+.first{
+    height:95px;
+    width:450px;
+    border:2px solid white;
+    margin-top:30px;
+    margin:15px;
+    padding:0px;
+    border-radius:20px;
+    box-shadow:5px 5px 5px rgb(49, 102, 237);
+    
+}
+
+option{
+    color:white;
+    font-weight:700px;
+    font-size:30px;
+    /* padding:30px; */
+    background-color: rgb(18, 0, 60);
+    
+    
+}
+
+.select::-webkit-scrollbar{
+    display:none;
+}
+
+
+
+.processing{
+
+    height:60px;
+    width:auto;
+    margin-top:30px;
+    padding:2px;
+    margin-left:210px;
+    background-color:none;
+}
+
+.select{
+    background-color:transparent;
+    color:white;
+    height:95px;
+    width:225px;
+    /* border:2px solid white; */
+    border-radius:20px;
+    /* margin-left:-1px; */
+    padding:10px;
+    box-shadow:2px 2px 2px rgb(49, 102, 237);
+    font-weight:700px;
+    font-size:40px;
+  
+    
+    
+}
