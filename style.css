@@ -109,7 +109,26 @@ body{
     padding:0px;
     border-radius:20px;
     box-shadow:5px 5px 5px rgb(49, 102, 237);
+    display:flex;
     
+   
+    
+}
+
+.number{
+    height:95px;
+    width:225px;
+    box-shadow:2px 2px 2px rgb(49, 102, 237);
+    font-weight:700px;
+    font-size:40px;
+     border-radius:20px;
+    background-color:transparent;
+    box-sizing:border-box;
+    padding:15px;
+    text-align:center;
+    color:white;
+    
+  
 }
 
 option{
@@ -126,7 +145,11 @@ option{
     display:none;
 }
 
-
+.number::-webkit-inner-spin-button,
+.number::-webkit-outer-spin-button{
+    -webkit-appearance:none;
+    margin:0;
+}
 
 .processing{
 
@@ -150,7 +173,8 @@ option{
     box-shadow:2px 2px 2px rgb(49, 102, 237);
     font-weight:700px;
     font-size:40px;
-  
+    box-sizing:border-box;
+    align-items:left;
     
     
 }
